@@ -1,1 +1,7 @@
-body {background:url(https://raw.githubusercontent.com/wh0a-com/cdn/main/images/wallpapper/default.jpg) no-repeat 50% fixed / cover !important;}
+body {
+  background: url(https://raw.githubusercontent.com/wh0a-com/cdn/main/images/wallpapper/default.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
